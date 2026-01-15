@@ -1,0 +1,70 @@
+{
+	"name": "truegray-png",
+	"author": "MattHungerford",
+	"version": "1.0.0",
+	"keywords": [
+		"pebble-app"
+	],
+	"private": true,
+	"dependencies": {},
+	"pebble": {
+		"displayName": "truegray-png",
+		"uuid": "9a42d2e8-e896-4abb-99c3-1a06b03b582e",
+		"sdkVersion": "3",
+		"enableMultiJS": true,
+		"targetPlatforms": [
+			"aplite",
+			"diorite"
+		],
+		"watchapp": {
+			"watchface": false
+		},
+		"messageKeys": [
+			"dummy"
+		],
+		"resources": {
+			"media": [
+				{
+					"type": "raw",
+					"name": "IMAGE_1",
+					"file": "start_screen.png"
+				},
+				{
+					"type": "raw",
+					"name": "IMAGE_2",
+					"file": "einstein.png"
+				},
+				{
+					"type": "raw",
+					"name": "IMAGE_3",
+					"file": "shuttle_port.png"
+				},
+				{
+					"type": "raw",
+					"name": "IMAGE_4",
+					"file": "dog.png"
+				},
+				{
+					"type": "raw",
+					"name": "IMAGE_5",
+					"file": "trex.png"
+				},
+				{
+					"type": "raw",
+					"name": "IMAGE_6",
+					"file": "supertux.png"
+				},
+				{
+					"type": "raw",
+					"name": "IMAGE_7",
+					"file": "robot.png"
+				},
+				{
+					"type": "raw",
+					"name": "IMAGE_8",
+					"file": "shuttle.png"
+				}
+			]
+		}
+	}
+}
